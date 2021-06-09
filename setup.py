@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="timberstone-cloud-sdk",  # Replace with your own username
-    version="0.0.2",
+    version="0.0.7",
     author="Marcelo Ventura",
     author_email="marceloventura@outlook.com",
     description="A pyhton pulumi sdk",
