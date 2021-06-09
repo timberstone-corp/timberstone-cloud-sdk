@@ -28,4 +28,4 @@ jobs:
           draft: false
           prerelease: false
       - name: Upload Release Asset
-        run: .github/workflows/release-assets-upload.py
+        run: .github/workflows/upload-release-assets.py
