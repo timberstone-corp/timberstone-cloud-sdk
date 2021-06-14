@@ -12,7 +12,7 @@ setuptools.setup(
     description="A pyhton pulumi sdk",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/venturamarcelo/timberstone-cloud-sdk",
+    url="https://github.com/timberstone-corp/timberstone-cloud-sdk",
     packages=setuptools.find_packages(exclude=["tests*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
