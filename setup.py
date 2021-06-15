@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -12,11 +13,11 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/timberstone-corp/timberstone-cloud-sdk",
-    packages=setuptools.find_packages(exclude=['tests*']),
+    packages=setuptools.find_packages(exclude=["tests*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires=">=3.6",
 )
