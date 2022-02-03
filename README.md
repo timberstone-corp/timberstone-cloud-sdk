@@ -11,3 +11,7 @@ python3 -m build
 ```
 
 Reference: [Python Packaging Projects](https://packaging.python.org/tutorials/packaging-projects/)
+
+## Contributing
+
+You can contribute by adding more modules to this sdk. Please use Github recommended practices (Issues and PRs) when doing so. 
