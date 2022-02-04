@@ -6,7 +6,9 @@ jobs:
   jira-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Pull Request title rules
-        uses: deepakputhraya/action-pr-title@v1.0.2
+      - name: checkout
+        uses: actions/checkout@v2
         with:
-          regex: '[A-Z]{2,}-\d+' # Regex the title should match.
+          fetch-depth: 0
+      - name: Enforce Jira Issue Key in Pull Request Title
+        uses: ryanvade/enforce-pr-title-style-action@v1
